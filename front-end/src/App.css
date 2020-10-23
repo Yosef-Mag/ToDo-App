@@ -1,0 +1,105 @@
+html {
+  height: 100%;
+  font-family: 'Grandstander', cursive;
+}
+
+body {
+  background: linear-gradient(to bottom, #ea80fc , #e1bee7);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+
+#rotate-name {
+
+  color:#535555;
+  margin-bottom: 1%;
+  text-align: center;
+  font-size: 90px;
+  transform: rotate(30deg);
+  
+  /* Safari */
+  -webkit-transform: rotate(-30deg);
+
+  /* Firefox */
+  -moz-transform: rotate(-30deg);
+
+  /* IE */
+  -ms-transform: rotate(-30deg);
+
+  /* Opera */
+  -o-transform: rotate(-30deg);
+
+  text-shadow:1px 1px 2px black;
+}
+
+#form {
+  margin-top: 5%;
+}
+
+
+input[type="text"] {
+  width: 100%;
+  display: block;
+  box-sizing: border-box;
+  font-family: 'Grandstander', cursive;
+  padding: 0 10px;
+  height: 40px;
+  margin-bottom: 15px;
+  border: 1px solid #535555;
+  outline: none;
+}
+
+input[type="text"]:focus{
+  border: 1px solid #535555;
+  background-color:  #e1bee7;
+  box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.13);
+}
+
+::placeholder {
+  color: #535555;
+}
+
+#text-area {
+  border: solid 2px #535555;
+  background-color: #e1bee7;
+  
+}
+
+
+
+#no-todos {
+  margin-top: 5%;
+  padding-top: 10%;
+  font-size: 3em;
+}
+
+#list {
+  border: solid 2px #535555;
+  background-color:  #e1bee7 ;
+}
+
+#list-item{
+  text-align: center;
+}
+
+#todo {
+  font-size: 3em;
+  padding-top: 10%;
+}
+
+#done {
+  margin-left: 30px;
+}
+
+#clear {
+  margin-left: 30px;
+}
+
+#delete {
+  text-align: right;
+}
+
+#edit {
+  margin: 5%;
+}
